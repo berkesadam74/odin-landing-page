@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Roboto;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    padding: 40px 200px;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    
+}
+
+.navbar  ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.navbar .logo{
+    margin-right: auto;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.825);
+}
+
+.section-one{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 200px 150px;
+    gap: 100px;
+}
+
+.left{
+    color: white;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right{
+    display: flex;
+    margin-left: auto;
+    background-color: grey;
+    padding: 90px 130px;
+    min-height: 90px ;
+    min-width: 130px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.placeholder{
+    font-weight: 400;
+    color: white;
+}
+
+.left .main-title{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.left .subtext{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.butt{
+    margin-top:10px;
+}
+
+.left .butt button{
+    color: white;
+    background-color:#3882F6 ;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 8px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.section-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.cards .image{
+    border-radius: 10%;
+    border: solid #3882F6 3px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.cards p{
+    font-weight: 300;
+    text-align: center;
+    width: 150px;
+    margin-bottom: 100px;
+}
+
+.header-two{
+    font-size: 40px;
+    margin:50px 0px;
+}
+
+.section-three{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 300px;
+}
+
+.container-p{
+    font-size: 33px;
+    font-weight: 300;
+    font-style: italic;
+}
+
