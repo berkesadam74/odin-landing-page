@@ -10,7 +10,7 @@ body{
 
 .navbar{
     display: flex;
-    padding: 40px 200px;
+    padding: 40px 50px;
     background-color: #1F2937;
     color: white;
     align-items: center;
@@ -43,22 +43,22 @@ a{
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    justify-content: space-between;
-    padding: 100px 200px 150px;
-    gap: 100px;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 50px;
+    flex-grow: 0;
 }
 
 .left{
-    color: white;
-    flex: 1;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-grow:0;
+    width: 300px;
 }
 
 .right{
     display: flex;
-    margin-left: auto;
     background-color: grey;
     padding: 90px 130px;
     min-height: 90px ;
@@ -67,6 +67,8 @@ a{
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
+    width: 300px;
+    height: 150px;
     
 }
 
@@ -76,13 +78,15 @@ a{
 }
 
 .left .main-title{
-    font-size: 30px;
+    color: white;
+    font-size: 25px;
     font-weight: 900;
 }
 
 .left .subtext{
     font-weight: 300;
     font-size: 18px;
+    color: rgba(255, 255, 255, 0.852);
 }
 
 .butt{
@@ -103,13 +107,14 @@ a{
 .section-two{
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .cards{
+    gap: 3%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 10%;
+    align-items: center;
 }
 
 .cards .image{
@@ -122,9 +127,15 @@ a{
 
 .cards p{
     font-weight: 300;
-    text-align: center;
     width: 150px;
     margin-bottom: 100px;
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-two{
@@ -137,12 +148,62 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 120px 300px;
+    padding: 120px 0px;
 }
 
 .container-p{
-    font-size: 33px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
     font-weight: 300;
     font-style: italic;
+    max-width: 50%;
 }
 
+.name{
+    font-weight: 500;
+    font-style: normal;
+    margin-left: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.section-four{
+    background-color: #3882F6;
+    margin: 50px 200px;
+    padding: 40px 50px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5%;
+}
+
+.right-2 button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid white;
+    background-color: #3882F6;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.left-2 h3{
+    font-weight: 500;
+}
+
+.left-2 p{
+    font-weight: 300;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.852);
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+}
